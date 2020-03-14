@@ -1,0 +1,175 @@
+## .gitignore for Grails 1.2 and 1.3
+
+# .gitignore for maven 
+/target/
+*.releaseBackup
+
+# web application files
+#/web-app/WEB-INF
+ 
+# IDE support files
+/.classpath
+/.launch
+/.project
+/.settings
+/*.launch
+/*.tmproj
+/ivy*
+/eclipse
+ 
+# default HSQL database files for production mode
+/prodDb.*
+ 
+# general HSQL database files
+#*Db.properties
+*Db.script
+ 
+# logs
+/stacktrace.log
+/test/reports
+/logs
+*.log
+*.log.*
+ 
+# project release file
+/*.war
+ 
+# plugin release file
+/*.zip
+/*.zip.sha1
+ 
+# older plugin install locations
+/plugins
+/web-app/plugins
+/web-app/WEB-INF/classes
+ 
+# "temporary" build files
+target/
+out/
+#build/
+ 
+# other
+*.iws
+ 
+#.gitignore for java
+*.class
+ 
+# Package Files #
+#*.jar
+*.war
+*.ear
+ 
+## .gitignore for eclipse
+ 
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+ 
+# External tool builders
+.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+ 
+# CDT-specific
+.cproject
+ 
+# PDT-specific
+.buildpath
+ 
+## .gitignore for intellij
+ 
+*.iml
+*.ipr
+*.iws
+.idea/
+ 
+## .gitignore for linux
+#.*
+!.gitignore
+!.gitattributes
+!.editorconfig
+!.eslintrc
+!.travis.yml
+*~
+ 
+## .gitignore for windows
+ 
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+ 
+# Folder config file
+Desktop.ini
+ 
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+ 
+## .gitignore for mac os x
+ 
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+ 
+ 
+# Thumbnails
+#._*
+ 
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+## hack for graddle wrapper
+!wrapper/*.jar
+!**/wrapper/*.jar
+
+#node.js
+node_modules/
+ztf-approval/.vscode/launch.json
+ztf-approval/.vscode/settings.json
+ztf-workflow-modules/ztf-workflow-message/.factorypath
+ztf-workflow-modules/ztf-workflow-event/.factorypath
+ztf-web-modules/ztf-grid-web/.factorypath
+ztf-web-modules/ztf-grid-app/.factorypath
+ztf-tools/ztf-util/.factorypath
+ztf-tools/ztf-page/.factorypath
+ztf-tools/ztf-execl/.factorypath
+ztf-tools/ztf-config/.factorypath
+ztf-tools/ztf-base/.factorypath
+ztf-taskcenter-modules/ztf-taskcenter/.factorypath
+ztf-taskcenter-modules/ztf-taskcenter-view/.factorypath
+ztf-lbs-modules/ztf-lbs-yingyan/.factorypath
+ztf-lbs-modules/ztf-lbs-location/.factorypath
+ztf-lbs-modules/ztf-lbs-fence/.factorypath
+ztf-lbs-modules/ztf-lbs-devices/.factorypath
+ztf-lbs-modules/ztf-lbs-analysis/.factorypath
+ztf-frame-modules/ztf-frame-worktime/.factorypath
+ztf-frame-modules/ztf-frame-tenant/.factorypath
+ztf-frame-modules/ztf-frame-sso/.factorypath
+ztf-frame-modules/ztf-frame-region/.factorypath
+ztf-frame-modules/ztf-frame-organization/.factorypath
+ztf-frame-modules/ztf-frame-menu/.factorypath
+ztf-frame-modules/ztf-frame-generator/.factorypath
+ztf-frame-modules/ztf-frame-dictionary/.factorypath
+ztf-frame-modules/ztf-frame-config/.factorypath
+ztf-frame-modules/ztf-frame-archive/.factorypath
+ztf-extend-modules/ztf-third-service/.factorypath
+ztf-extend-modules/ztf-sanitation-kfq/.factorypath
+ztf-datav-modules/ztf-data-manage/.factorypath
+ztf-datav-modules/ztf-data-analyze/.factorypath
+ztf-core-modules/ztf-core-geo/.factorypath
+ztf-collect-modules/ztf-collect-handle/.factorypath
+ztf-activiti-modules/ztf-activiti-base/.factorypath
+workspace
